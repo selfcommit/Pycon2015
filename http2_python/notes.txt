@@ -1,0 +1,5 @@
+Python Hyper - Python's only http2 client
+
+http://github.com/Lukasa/hyper
+
+http://http2bin.org

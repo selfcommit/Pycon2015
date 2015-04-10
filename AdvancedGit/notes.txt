@@ -1,0 +1,34 @@
+git status
+
+git show
+
+git blame path/to/file
+(Shows the last commit that touched each line of a file)
+
+git cherry-pick 1d5b2e
+(Cherry picks a given hash off a commit prefix)
+
+git reset --hard HEAD^
+
+Head "The commit I'm sitting on"
+
+Head^ "This commits Parent"
+
+Head^^ "This commits grandparent"
+
+git rebase
+Never change History on Master or any branch others use.
+Best practice: Only change commits on unpushed commits
+
+git rebase master
+- suggested an alternative to a merge (Used between branches)
+
+git log
+
+git reflog
+shows the last few commits
+
+git commit --amend
+- allows you to replace the top most commit with a new commit including your recent additions.
+
+

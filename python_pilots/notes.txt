@@ -1,0 +1,52 @@
+Commercial Flying isn't that dangerous.
+Small aircraft flying is good, but magnitudes worse.
+
+How do we know?
+We explore the details of every crash.
+
+In Software:
+Soft Failure 
+-Crash Hard on any serious error
+-Redundancy - if it crashes, keep it reliable
+(Put a raise in there!)
+Expect Choas Monkey. (Multiple sysems can fail at any time)
+
+Noisy Warnings
+-Keep them to a limited Number (signal to Noise)
+-DONT email on every thing. 
+-Clear, unambiguous text & Speech
+Choose 5 top errors, solve first.
+
+Poor Testing
+Knowing WHEN, not IF things fail.
+(python unitest ? )
+(Common failures to know exactly how things fail)
+
+Automation Reliance
+- The automatin should help, but allow for pilot control.
+- Reguarly practice manual recovery
+
+People Reliance
+- Check lists as a bakup
+- Common warnings about things pilots get wrong
+- Reduce workload at critical times (When #$% hits the fan, its not  talk time)
+(Translates to checklist doc vs Ops doc)
+
+Bad Priorities
+- Aviate, Navigate, Communicate
+- Prioriy matters, what matters and make sure it happens
+
+Unclear Responsibilities
+- Single Person makes key decisions
+- Others are ALWAYS listened to
+- At the end of the day, 1 person makes decisions (Pull requests, etc)
+- Don't Place Blame, describe problems and purpose solutions.
+
+Deadlines
+- Always expect the unexpected
+- ship good code rather than deadline code
+
+checklist, filterErrors, PickKickFeatures(UserStory),RewardGoodChoices
+
+Ops are like Pilots.. 
+Their life is bordom punctuated by moments of terror

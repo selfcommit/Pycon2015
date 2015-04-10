@@ -1,0 +1,17 @@
+Cool tricks:
+
+1. You can force the definition of keyword variables in a function with a *
+
+example:
+def foo(bar,*,foobar,otherfoo):
+  print bar, foobar, otherfoo
+
+in the call foo(10,15,12) python will reject the call unless it is formatted as
+
+def (10, foober=15, otherfoo=12)
+
+2. Generators (yield)
+- Saves memory space, file can be of any size, iterates.
+- Always use a generator, unless youve got a really good reason.
+
+

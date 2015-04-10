@@ -1,0 +1,4 @@
+http://www.effectivepython.com/2015/04/10/pycon-montreal/
+
+Related Book:
+http://www.effectivepython.com/

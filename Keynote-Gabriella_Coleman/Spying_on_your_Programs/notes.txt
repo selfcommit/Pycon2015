@@ -1,0 +1,42 @@
+Linux tools for exploring what your programs are doing
+
+How do you observe what a program is doing?
+
+Wizard School - Why you should love your OS
+Systems calls - are awesome.. The main way that your OS interacts with Kernel
+
+The case of the Mystery Config File
+Does bash use .bash_profile or .bashrc!?
+
+strace = wizardry
+strace tells you every systemcall that it runs.  
+
+ex: strace -e open bash
+(Shows the files that are open when the program is called)
+
+other calls to try:
+write
+execve
+recvfrom
+
+The Case of the French Website
+A website presents 1 way in a brwoser, a separate way in curl
+
+ngrepn(checking input / output on a given port)
+tcpdump
+wireshark
+mitmproxy
+
+The case of the slow program
+Profiling using system tools
+
+1 Too much CPU
+2 too many writes
+3 wait for a slow server
+
+time - shows how long a process takes with breakdown of cpu/user/system  space
+
+dstat - shows reads / writes to a disk
+
+
+
